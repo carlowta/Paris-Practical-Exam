@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.4.0/dist/ionicons.js"></script>
+    <title>Paris Practical Exam</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#files">Files</a></li>
+            <li><a href="#comments">Comments</a></li>
+        </ul>
+    </header>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="welcome-text">
+            <h1 class="typewriter">"<span id="hello-world"></span>"</h1>
+            <h2>Welcome to my ICT activities showcase</h2>
+            <p>Showing the outputs I have submitted during the 2nd quarter of the ICT subject.</p>
+        </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section class="topics-section" id="topics">
+        <h1>2nd Quarter Topics</h1>
+        <div class="topics-container">
+            <div class="topic-box">
+                <img src="ppt-logo.jpg" alt="Topic 1 Image">
+                <h2>MS PowerPoint Processing</h2>
+            </div>
+            <div class="topic-box">
+                <img src="excel-logo.jpg" alt="Topic 2 Image">
+                <h2>MS Excel Processing</h2>
+            </div>
+            <div class="topic-box">
+                <img src="VSC-logo.jpg" alt="Topic 3 Image">
+                <h2>Basic Coding</h2>
+                <p>with Visual Studio Code</p>
+            </div>
+            <div class="topic-box">
+                <img src="Github-logo.jpg" alt="Topic 4 Image">
+                <h2>Website Publishing</h2>
+                <p>with Github</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Files Section -->
+    <section class="files-section" id="files">
+        <h2>Files</h2>
+        <div class="files-grid">
+            <!-- File 1 to 4 -->
+            <div class="file-box" id="file1">
+                <div class="file-preview">
+                    <img src="file-preview1.jpg" alt="PowerPoint Exercises Preview">
+                </div>
+                <h3>PowerPoint Exercises</h3>
+                <p>Topic: MS PowerPoint Processing</p>
+                    <button onclick="window.location.href='File 1.pptx'">Download File</button>
+                </div>
+            </div>
+            <div class="file-box" id="file2">
+                <div class="file-preview">
+                    <img src="file-preview2.jpg" alt="PowerPoint Activity 1 Preview">
+                </div>
+                <h3>PowerPoint Activity 1</h3>
+                <p>Topic: MS PowerPoint Processing</p>
+                    <button onclick="window.location.href='File 2.pptx'">Download File</button>
+                </div>
+            </div>
+            <div class="file-box" id="file3">
+                <div class="file-preview">
+                    <img src="file-preview3.jpg" alt="Excel Output Preview">
+                </div>
+                <h3>Excel Output</h3>
+                <p>Activity 1&2 <br> Topic: MS Excel Processing</p>
+                <div class="file-buttons">
+                    <!-- Open File Button -->
+                    <button onclick="window.location.href='File 3.xlsx'">Download File</button>
+                </div>                
+            </div>
+            <div class="file-box" id="file4">
+                <div class="file-preview">
+                    <img src="file-preview4.jpg" alt="Excel Summative Assessment Preview">
+                </div>
+                <h3>Excel Summative Assessment</h3>
+                <p>This activity was done during a summative assessment on MS Excel</p>
+                    <button onclick="window.location.href='File 4.xlsx'">Download File</button>
+                </div>
+            </div>
+
+            <!-- File 5 to 6 -->
+            <div class="file-box" id="file5">
+                <div class="file-preview">
+                    <img src="file-preview5.jpg" alt="Coding Activity 1 Preview">
+                </div>
+                <h3>Coding Activity 1</h3>
+                <p>First task of basic coding</p>
+                <button onclick="window.location.href='https://www.youtube.com/watch?v=M5JJxdrCvJQ'">Tutorial</button>
+                <button onclick="window.location.href='https://drive.google.com/drive/folders/1XUQJYfI97fhOeY1yCQrTBXOMgnKGxeAX?usp=sharing'">Download File</button>
+                </div>
+            </div>
+            <div class="file-box" id="file6">
+                <div class="file-preview">
+                    <img src="file-preview6.jpg" alt="Coding Activity 2 Preview">
+                </div>
+                <h3>Coding Activity 2</h3>
+                <p>Second task of basic coding</p>
+                    <button onclick="window.location.href='https://www.youtube.com/watch?v=CQZxeoQeo5c'">Tutorial</button>
+                    <button onclick="window.location.href='https://drive.google.com/drive/folders/1zHAL4BHhqYOHYA6BeoqzTWpBqvfMGEuN?usp=sharing'">Download File</button>
+                </div>
+            </div>
+
+            <!-- File 7 -->
+            <div class="file-box" id="file7">
+                <div class="file-preview">
+                    <img src="file-preview7.jpg" alt="Github Publishing Test Preview">
+                </div>
+                <h3>Github Publishing Test</h3>
+                <p>This activity was done to test the github features</p>
+                <button onclick="window.location.href='//carlowta.github.io/Dino-Rawr/'">Open Link</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-left">
+                <h2>About Me</h2>
+                <p>I am Carl Gian Kimpa-oy Paris, a 15-year-old student at H.O.P.E. Christian Academy Inc., currently in Grade 10. I am passionate about video and photo editing, graphic designing, and playing the guitar. I have been described as "smart", "funny", "creative", "handsome", "sira-ulo", and "walang-hiya" by my friends.
+
+                    My ultimate goal in life is just to become very rich (dream big, right?). That is all, and i thank you:]
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/18LpsZgh1u/?mibextid=JRoKGi" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/carl._.gian/profilecard/?igsh=bHBqd2dva3p4bHQ1" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.tiktok.com/@gian._.gian._.gian?_t=8s2sdLjZtt2&_r=1" target="_blank">
+                        <ion-icon name="logo-tiktok"></ion-icon>
+                    </a>
+                    <a href="https://snapchat.com/t/CZH2aZsK" target="_blank">
+                        <ion-icon name="logo-snapchat"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="about-right">
+                <img src="your-image.png" alt="About Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments-section" id="comments">
+        <div class="comments-container">
+            <h2>Some Comments About this Website</h2>
+                <p>"okay carl sanaol"- Reidler Tami-ing <br> "okay wow."- Mahailah Bawang <br> "very good *with thumbs up*"-Justine Mayames <br> "perfect"- T. Analiza</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Carl Gian K. Paris Practical Exam </p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#files">Files</a></li>
+                <li><a href="#comments">Comments</a></li>
+            </ul>
+        </nav>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
+</html>
